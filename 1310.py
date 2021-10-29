@@ -17,7 +17,7 @@ class Matrix:
         self.matrix = tr_matrix
         return tr_matrix
 
-    def transponeV2(self):
+    def transpone2(self):
         tr_matrix = [list(values) for values in zip(*self.matrix)]
         self.matrix = tr_matrix
         return tr_matrix
